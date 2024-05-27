@@ -1,0 +1,109 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: black;
+    color: orange;
+    font-family: impact;
+}
+
+
+.content{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+}
+
+.history, .players, .shop {
+    width: 295px;
+    height: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    border-radius: 35px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.news{
+    width: 700px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    border-radius: 35px;
+    text-decoration: none;
+    padding: 10px;
+    background-image: url(../IMG/UDC.png);
+    border: 3px solid white;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.history a, .players a, .shop a{
+    text-decoration: none;
+    color: white;
+}
+
+.history:hover{
+    transform: translateY(-30px);
+    transition: 0.3s;
+    border: 5px solid goldenrod;
+}
+
+.players:hover{
+    transform: translateY(-30px);
+    transition: 0.3s;
+    border: 5px solid green;
+}
+
+.shop:hover{
+    transform: translateY(-30px);
+    transition: 0.3s;
+    border: 5px solid blue;
+}
+
+.history:hover > a {
+    color: goldenrod;
+}
+
+.players:hover > a {
+    color: green;
+}
+
+.shop:hover > a {
+    color: blue;
+}
+
+.smimg{
+    margin-left: 30 px;
+    margin-right: 30px;
+}
